@@ -7,15 +7,26 @@ body{
 }
 
 #barra{
-    background-color: rgb(51, 121, 185);
+    background-color: rgb(4, 115, 240);
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    height: 60px;
     padding: 10px;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
+
+
+.links{
+    /*flex*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 
 #logo{
     display: inline;
@@ -37,15 +48,19 @@ body{
 
 .botones{
     float: right;
-    /*background-color: aquamarine;*/
     margin: 10px;
-    
+    flex-grow: 1;
 }
 
 .titulo{
     float: left;
     margin: 0;
-    background-color: rgb(51, 121, 185);
+    background-color: rgb(4, 115, 240);
+}
+
+.botones:hover{
+    background-color: rgb(16, 58, 97);
+    
 }
 
 h3 {
