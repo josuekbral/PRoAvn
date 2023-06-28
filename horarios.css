@@ -1,0 +1,568 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 80px 0 0 0;
+    /* background: linear-gradient(to bottom, #23a8c0c4, #42dcf785); */
+    background: #308696;
+}
+
+#barra{
+    background-color: rgb(51, 121, 185);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    height: 60px;
+    padding: 10px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+#logo{
+    display: inline;
+    float: left;
+    width: 60px;
+}
+
+#barra a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.menu{
+    display: inline;
+    padding: 10px;
+}
+
+.botones{
+    float: right;
+    /*background-color: aquamarine;*/
+    margin: 10px;
+    
+}
+
+.titulo{
+    float: left;
+    margin: 0;
+    background-color: rgb(51, 121, 185);
+}
+
+h3 {
+    display: inline;
+    font-size: 34px;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 10px;
+    border-bottom: 5px solid #23a8c0c4;
+}   
+h4 {
+    display: inline;
+    font-size: 34px;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 10px;
+    border-bottom: 5px solid #23a8c0c4;
+    margin-top: 80px;
+
+}
+/*
+.img2 {
+    margin: 20px auto;
+    display: inline-block;
+    width: 30%;
+}
+.img2 img {
+    display: inline-block;
+    border-radius: 30px;
+    border: 3px solid #555;
+    box-shadow: 2px 2px 12px 5px #298d9ec4;
+    width: 90%;
+} 
+*/
+            /*Horarios de 5°*/
+.contenedor_de_horarios {
+    padding: 30px;
+}
+.horarios1 {
+    display: grid;
+    background-color: #c0c0c0;
+    color: #000;
+    border: 1px solid #777;
+    grid-template-rows: 100px 80px 30px 160px 20px 80px 80px 20px 80px 80px 40pX 160px 20px 60px 100px 80px 20px 30px 20px 100px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-flow: column;
+    border-radius: 50px;
+    box-shadow: 0 0 15px 5px #444;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.horarios1-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #777;
+    text-align: center;
+}
+
+.horarios1-div:first-child {
+    border-top-left-radius: 50px;
+}
+.horarios1-div:nth-child(20) {
+    border-bottom-left-radius: 50px;
+}
+.horarios1-div:nth-child(29) {
+
+    grid-row: 9 / span 2;
+}
+.horarios1-div:nth-child(33) {
+    grid-row: 14 / span 2;
+}
+.horarios1-div:nth-child(34) {
+    grid-row: 16 / span 3;
+}
+.horarios1-div:nth-child(42) {
+    grid-row: 6 / span 2;
+}
+.horarios1-div:nth-child(49) {
+    grid-row: 14 / span 2;
+}
+.horarios1-div:nth-child(50) {
+    grid-row: 16 / span 3;
+}
+.horarios1-div:nth-child(58) {
+    grid-row: 6 / 8;
+} 
+.horarios1-div:nth-child(60) {
+    grid-row: 9 / span 2;
+} 
+.horarios1-div:nth-child(62) {
+    grid-row: 12 / span 3;
+}
+.horarios1-div:nth-child(63) {
+    grid-row: 15 / span 2;
+}
+.horarios1-div:nth-child(65) {
+    grid-row: 18 / span 2;
+}
+.horarios1-div:nth-child(72) {
+    grid-row: 6 / span 2;
+}
+.horarios1-div:nth-child(74) {
+    grid-row: 9 / span 2;
+}
+.horarios1-div:nth-child(76) {
+    grid-row: 12 / span 3;
+}
+.horarios1-div:nth-child(78) {
+    grid-row: 16 / span 4;
+}
+.horarios1-div:nth-child(85) {
+    grid-row: 6 / span 2;
+}
+.horarios1-div:nth-child(90) {
+    grid-row: 12 / span 3;
+}
+.horarios1-div:nth-child(92) {
+    grid-row: 16 / span 4;
+}
+.horarios1-div:nth-child(94) {
+    border-top-right-radius: 50px;
+}
+.horarios1-div:last-child {
+    border-bottom-right-radius: 50px;
+}
+            /*Horarios de 5°*/
+            /*Horarios de 4°*/
+.horarios2 {
+    display: grid;
+    background-color: #c0c0c0;
+    color: #000;
+    border: 1px solid #777;
+    grid-template-rows: 100px 80px 30px 160px 20px 80px 80px 20px 80px 80px 40pX 160px 20px 40px 40px 40px 40px 20px 100px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-flow: column;
+    border-radius: 50px;
+    box-shadow: 0 0 15px 5px #444;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.horarios2-div {
+    border: 1px solid #777;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.horarios2-div:first-child {
+    border-top-left-radius: 50px;
+}
+.horarios2-div:nth-child(19) {
+    border-bottom-left-radius: 50px;
+}
+.horarios2-div:nth-child(25) {
+    grid-row: 6 / span 2;
+}
+.horarios2-div:nth-child(27) {
+    grid-row: 9 / span 2;
+}
+.horarios2-div:nth-child(31) {
+    grid-row: 14 / span 2;
+}
+.horarios2-div:nth-child(32) {
+    grid-row: 16 / span 2;
+}
+.horarios2-div:nth-child(43) {
+    grid-row: 9 / span 2;
+}
+.horarios2-div:nth-child(47) {
+    grid-row: 14 / span 4;
+}
+.horarios2-div:nth-child(55) {
+    grid-row: 6 / span 2;
+}
+.horarios2-div:nth-child(57) {
+    grid-row: 9 / span 2;
+}
+.horarios2-div:nth-child(62) {
+    grid-row: 15 / span 3;
+}
+.horarios2-div:nth-child(73) {
+    grid-row: 9 / span 2;
+}
+.horarios2-div:nth-child(77) {
+    grid-row: 14 / span 4;
+}
+.horarios2-div:nth-child(85) {
+    grid-row: 6 / span 2;
+}
+.horarios2-div:nth-child(92) {
+    grid-row: 14 / span 3;
+}
+.horarios2-div:nth-child(96) {
+    border-top-right-radius: 50px;
+}
+.horarios2-div:last-child {
+    border-bottom-right-radius: 50px;
+}
+            /*Horarios de 4°*/
+            /*Horarios de 3°*/
+.horarios3 {
+    display: grid;
+    background-color: #c0c0c0;
+    color: #000;
+    border: 1px solid #777;
+    grid-template-rows: 100px 80px 30px 160px 20px 80px 80px 20px 80px 80px 40pX 80px 80px 20px 40px 120px 20px 30px 50px 30px 20px 100px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-flow: column;
+    border-radius: 50px;
+    box-shadow: 0 0 15px 5px #444;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.horarios3-div {
+    border: 1px solid #777;
+    text-align: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.horarios3-div:first-child {
+    border-top-left-radius: 50px;
+}
+.horarios3-div:nth-child(22) {
+    border-bottom-left-radius: 50px;
+}
+.horarios3-div:nth-child(28) {
+    grid-row: 6 / span 2;
+}
+.horarios3-div:nth-child(30) {
+    grid-row: 9 / span 2;
+}
+.horarios3-div:nth-child(32) {
+    grid-row: 12 / span 2;
+}
+.horarios3-div:nth-child(34) {
+    grid-row: 15 / span 2;
+}
+.horarios3-div:nth-child(36) {
+    grid-row: 18 / span 2;
+}
+.horarios3-div:nth-child(37) {
+    grid-row: 20 / span 2;
+}
+.horarios3-div:nth-child(50) {
+    grid-row: 12 / span 2;
+}
+.horarios3-div:nth-child(53) {
+    grid-row: 16 / span 3;
+}
+.horarios3-div:nth-child(55) {
+    grid-row: 20 / span 2;
+}
+.horarios3-div:nth-child(65) {
+    grid-row: 9 / span 2;
+}
+.horarios3-div:nth-child(70) {
+    grid-row: 15 / span 2;
+}
+.horarios3-div:nth-child(72) {
+    grid-row: 18 / span 2;
+}
+.horarios3-div:nth-child(73) {
+    grid-row: 20 / span 2;
+}
+.horarios3-div:nth-child(80) {
+    grid-row: 6 / span 2;
+}
+.horarios3-div:nth-child(82) {
+    grid-row: 9 / span 2;
+}
+.horarios3-div:nth-child(84) {
+    grid-row: 12 / span 2;
+}
+.horarios3-div:nth-child(86) {
+    grid-row: 15 / span 2;
+}
+.horarios3-div:nth-child(87) {
+    grid-row: 17 / span 4;
+}
+.horarios3-div:nth-child(95) {
+    grid-row: 6 / span 2;
+}
+.horarios3-div:nth-child(100) {
+    grid-row: 12 / span 2;
+}
+.horarios3-div:nth-child(102) {
+    grid-row: 15 / span 2;
+}
+.horarios3-div:nth-child(103) {
+    grid-row: 17 / span 4;
+}
+.horarios3-div:nth-child(106) {
+    border-top-right-radius: 50px;
+}
+.horarios3-div:last-child {
+    border-bottom-right-radius: 50px;
+}
+            /*Horarios de 3°*/
+            /*Horarios de 2°*/
+.horarios4 {
+    display: grid;
+    background-color: #c0c0c0;
+    color: #000;
+    border: 1px solid #777;
+    /* grid-template-rows: repeat(24, 50px); */
+    grid-template-rows: 100px 80px 30px 160px 20px 80px 80px 20px 80px 80px 40pX 80px 80px 20px 60px 20px 20px 30px 20px 30px 20px 70px 20px 100px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-flow: column;
+    border-radius: 50px;
+    box-shadow: 0 0 15px 5px #444;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.horarios4-div {
+    border: 1px solid #777;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.horarios4-div:first-child {
+    border-top-left-radius: 50px;
+}
+.horarios4-div:nth-child(24) {
+    border-bottom-left-radius: 50px;
+}
+.horarios4-div:nth-child(33) {
+    grid-row: 9 / span 2;
+}
+.horarios4-div:nth-child(36) {
+    grid-row: 13 / span 3;
+}
+.horarios4-div:nth-child(38) {
+    grid-row: 17 / span 6;
+}
+.horarios4-div:nth-child(46) {
+    grid-row: 6 / span 2;
+}
+.horarios4-div:nth-child(48) {
+    grid-row: 9 / span 2;
+}
+.horarios4-div:nth-child(50) {
+    grid-row: 12 / span 2;
+}
+.horarios4-div:nth-child(52) {
+    grid-row: 15 / span 4;
+}
+.horarios4-div:nth-child(54) {
+    grid-row: 20 / span 4;
+}
+.horarios4-div:nth-child(61) {
+    grid-row: 6 / span 2;
+}
+.horarios4-div:nth-child(63) {
+    grid-row: 9 / span 2;
+}
+.horarios4-div:nth-child(65) {
+    grid-row: 12 / span 2;
+}
+.horarios4-div:nth-child(67) {
+    grid-row: 15 / span 2;
+}
+.horarios4-div:nth-child(69) {
+    grid-row: 18 / span 4;
+}
+.horarios4-div:nth-child(70) {
+    grid-row: 22 / span 2;
+}
+.horarios4-div:nth-child(77) {
+    grid-row: 6 / span 2;
+}
+.horarios4-div:nth-child(82) {
+    grid-row: 12 / span 2;
+}
+.horarios4-div:nth-child(84) {
+    grid-row: 15 / span 4;
+}
+.horarios4-div:nth-child(86) {
+    grid-row: 20 / span 4;
+}
+.horarios4-div:nth-child(93) {
+    grid-row: 6 / span 2;
+}
+.horarios4-div:nth-child(95) {
+    grid-row: 9 / span 2;
+}
+.horarios4-div:nth-child(97) {
+    grid-row: 12 / span 2;
+}
+.horarios4-div:nth-child(99) {
+    grid-row: 15 / span 2;
+}
+.horarios4-div:nth-child(100) {
+    grid-row: 17 / span 4;
+}
+.horarios4-div:nth-child(102) {
+    grid-row: 22 / span 2;
+}
+.horarios4-div:nth-child(104) {
+    border-top-right-radius: 50px;
+}
+
+.horarios4-div:last-child {
+    border-bottom-right-radius: 50px;
+}
+            /*Horarios de 2°*/
+            /*Horarios de 1°*/
+.horarios5 {
+    display: grid;
+    background-color: #c0c0c0;
+    color: #000;
+    border: 1px solid #777;
+    grid-template-rows: 100px 80px 30px 80px 80px 20px 80px 80px 20px 80px 80px 40pX 160px 20px 80px 20px 30px 20px 30px 20px 80px 30px 20px 100px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-flow: column;
+    border-radius: 50px;
+    box-shadow: 0 0 15px 5px #444;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.horarios5-div {
+    border: 1px solid #777;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.horarios5-div:first-child {
+    border-top-left-radius: 50px;
+}
+.horarios5-div:nth-child(24) {
+    border-bottom-left-radius: 50px;
+}
+.horarios5-div:nth-child(31) {
+    grid-row: 7 / span 2;
+}
+.horarios5-div:nth-child(33) {
+    grid-row: 10 / span 2;
+}
+.horarios5-div:nth-child(37) {
+    grid-row: 15 / span 3;
+}
+.horarios5-div:nth-child(39) {
+    grid-row: 19 / span 5;
+}
+.horarios5-div:nth-child(50) {
+    grid-row: 10 / span 2;
+}
+.horarios5-div:nth-child(56) {
+    grid-row: 17 / span 4;
+}
+.horarios5-div:nth-child(57) {
+    grid-row: 21 / span 3;
+}
+.horarios5-div:nth-child(62) {
+    grid-row: 4 / span 2;
+}
+.horarios5-div:nth-child(64) {
+    grid-row: 7 / span 2;
+}
+.horarios5-div:nth-child(66) {
+    grid-row: 10 / span 2;
+}
+.horarios5-div:nth-child(70) {
+    grid-row: 15 / span 5;
+}
+.horarios5-div:nth-child(71) {
+    grid-row: 20 / span 3;
+}
+.horarios5-div:nth-child(77) {
+    grid-row: 4 / span 2;
+}
+.horarios5-div:nth-child(79) {
+    grid-row: 7 / span 2;
+}
+.horarios5-div:nth-child(81) {
+    grid-row: 10 / span 2;
+}
+.horarios5-div:nth-child(86) {
+    grid-row: 16 / span 4;
+}
+.horarios5-div:nth-child(89) {
+    grid-row: 22 / span 2;
+}
+.horarios5-div:nth-child(94) {
+    grid-row: 4 / span 2;
+}
+.horarios5-div:nth-child(96) {
+    grid-row: 7 / span 2;
+}
+.horarios5-div:nth-child(103) {
+    grid-row: 15 / span 5;
+}
+.horarios5-div:nth-child(105) {
+    grid-row: 21 / span 3;
+}
+.horarios5-div:last-child {
+    border-bottom-right-radius: 50px;
+}
+.horarios5-div:nth-child(107) {
+    border-top-right-radius: 50px;
+}
+/*Horarios de 1°*/
+.f {
+    background: #ababab;
+    font-size: 15px;
+    line-height: 15px;
+}

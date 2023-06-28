@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#barra{
+    background-color: rgb(51, 121, 185);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    height: 60px;
+    padding: 10px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+#logo{
+    display: inline;
+    float: left;
+    width: 60px;
+}
+
+#barra a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.menu{
+    display: inline;
+    padding: 10px;
+}
+
+.botones{
+    float: right;
+    /*background-color: aquamarine;*/
+    margin: 10px;
+    
+}
+
+.titulo{
+    float: left;
+    margin: 0;
+    background-color: rgb(51, 121, 185);
+}
+
+.botones:hover{
+    background-color: rgb(16, 58, 97);
+    
+}
+
+#cuerpo{
+    margin: 0;
+    padding: 50px;
+    padding-left: 0px;
+    padding-top: 120px;   
+    width: 40%; 
+    float: right;
+    display: inline;
+}
+
+
+.nota{
+    width: 800px;
+    height: 170px;
+    padding: 20px;
+    border: 5px rgb(51, 121, 185) solid;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
+    margin: 15px;
+    margin-left: 0px;
+}
+
+.nota .inaguracion{
+    width: 40%;
+    display: inline;
+    float: left;
+}
+
+.nota .texto{
+    display: inline;
+    width: 50%;
+    float: right;
+    align-items: right;
+    margin: 10px;
+}
+
+#video{
+    background-color: rgb(51, 121, 185);
+    margin: 50px;
+    margin-right: 0;
+    margin-top: 135px;
+    padding: 0;
+    display: inline;
+    float: left;
+    width: 40%;
+    height: 500px;
+
+}
