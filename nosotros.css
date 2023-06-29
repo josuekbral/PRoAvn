@@ -1,0 +1,113 @@
+#barra{
+    background-color: rgb(4, 115, 240);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    position: sticky; 
+    top: 0; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+
+.links{ 
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+#logo{
+    display: inline;
+    float: left;
+    width: 70px;
+}
+
+#barra a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.menu{
+    display: inline;
+    padding: 10px;
+}
+
+.botones{
+    float: right;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.titulo{
+    float: left;
+    margin: 0;
+    background-color: rgb(4, 115, 240);
+}
+
+.botones:hover{
+    background-color: rgb(16, 58, 97);
+}
+
+.notas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 5px rgb(4, 115, 240) solid;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+}
+
+body{
+ margin: 0%;   
+}
+
+.imagenes{
+   align-self: center;
+   width: 40%;
+   margin: 10px;
+
+}
+.img1{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: 5px rgb(4, 115, 240) solid;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 70px;
+}
+
+body{
+    background-color: #eee;
+}
+.imagenes2 {
+    width: 90%;
+    margin: 10px;
+    border-radius: 30px;
+}
+.post2{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 5px rgb(4, 115, 240) solid;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
